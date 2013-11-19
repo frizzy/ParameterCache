@@ -1,0 +1,23 @@
+{
+    "name": "frizzy/parameter-cache",
+    "type": "library",
+    "description": "Manages caching for a parameter array to a PHP file",
+    "keywords": ["cahce", "parameter"],
+    "homepage": "http://github.com/frizzy/parameter-cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernard van Niekerk",
+            "email": "frizzy@paperjaw.com",
+            "homepage": "https://paperjaw.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Frizzy\\ParameterCache": "."
+        }
+    }
+}
